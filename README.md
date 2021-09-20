@@ -1,2 +1,7 @@
 # mukegedavid-gmail-com-Bitcoin-Price-Prediction-Using-RNN
 Bitcoin is incredibly volatile and is prone to wild swings within a day or even within minutes. This makes trading a dangerous venture. As Bitcoin can be considered as a sequential data, the use of Recurrent Neural Networks (RNN) can help in future price forecasting to enhance the success of Bitcoin traders.
+
+Recurrent neural networks (RNN) are the state-of-the-art algorithm for sequential data. It is an algorithm that remembers its input due to its internal memory, which makes the algorithm perfectly suited for solving machine learning problems involving sequential data. It is one of the algorithms that have great results in deep learning. In this project RNN is used to predict the price of Bitcoin by analyzing the information of the last 9 years. We implemented a simple RNN model that helps us predict the price of Bitcoin.
+
+Long Short-Term Memory (LSTM) networks are an extension of recurrent neural networks, which basically extend the memory. Therefore it is well suited to learn from important experiences that have very long time lags in between. LSTMs enable RNNs to remember inputs over a long period of time. This is because LSTMs contain information in a memory, much like the memory of a computer. The LSTM can read, write and delete information from its memory. We implemented a simple model that uses LSTM to predict the price of Bitcoin using LSTM.
+
